@@ -16,6 +16,9 @@ class _HomePageState extends State<HomePage> {
       "https://rickandmortyapi.com/api/character/?name=rick&status=alive";
   Character character; //intanciamento da class Character
   String results = "Rick";
+  final urlName = "https://rickandmortyapi.com/api/character/?name=";
+  final urlStatus = "https://rickandmortyapi.com/api/character/?status=";
+  final urlSpecies = "https://rickandmortyapi.com/api/character/?species=";
 
   @override
   void initState() {
